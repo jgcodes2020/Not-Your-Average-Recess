@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Right Arm
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: alex
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_ChestEndEffector
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_ChestOriginEffector
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_HeadEffector
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_Hips
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_Hips/AlexQuickRig_Ctrl_LeftUpLeg
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_Hips/AlexQuickRig_Ctrl_LeftUpLeg/AlexQuickRig_Ctrl_LeftLeg
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_Hips/AlexQuickRig_Ctrl_LeftUpLeg/AlexQuickRig_Ctrl_LeftLeg/AlexQuickRig_Ctrl_LeftFoot
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_Hips/AlexQuickRig_Ctrl_LeftUpLeg/AlexQuickRig_Ctrl_LeftLeg/AlexQuickRig_Ctrl_LeftFoot/AlexQuickRig_Ctrl_LeftToeBase
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_Hips/AlexQuickRig_Ctrl_RightUpLeg
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_Hips/AlexQuickRig_Ctrl_RightUpLeg/AlexQuickRig_Ctrl_RightLeg
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_Hips/AlexQuickRig_Ctrl_RightUpLeg/AlexQuickRig_Ctrl_RightLeg/AlexQuickRig_Ctrl_RightFoot
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_Hips/AlexQuickRig_Ctrl_RightUpLeg/AlexQuickRig_Ctrl_RightLeg/AlexQuickRig_Ctrl_RightFoot/AlexQuickRig_Ctrl_RightToeBase
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_Hips/AlexQuickRig_Ctrl_Spine
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_Hips/AlexQuickRig_Ctrl_Spine/AlexQuickRig_Ctrl_Spine1
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_Hips/AlexQuickRig_Ctrl_Spine/AlexQuickRig_Ctrl_Spine1/AlexQuickRig_Ctrl_Spine2
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_Hips/AlexQuickRig_Ctrl_Spine/AlexQuickRig_Ctrl_Spine1/AlexQuickRig_Ctrl_Spine2/AlexQuickRig_Ctrl_LeftShoulder
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_Hips/AlexQuickRig_Ctrl_Spine/AlexQuickRig_Ctrl_Spine1/AlexQuickRig_Ctrl_Spine2/AlexQuickRig_Ctrl_LeftShoulder/AlexQuickRig_Ctrl_LeftArm
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_Hips/AlexQuickRig_Ctrl_Spine/AlexQuickRig_Ctrl_Spine1/AlexQuickRig_Ctrl_Spine2/AlexQuickRig_Ctrl_LeftShoulder/AlexQuickRig_Ctrl_LeftArm/AlexQuickRig_Ctrl_LeftForeArm
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_Hips/AlexQuickRig_Ctrl_Spine/AlexQuickRig_Ctrl_Spine1/AlexQuickRig_Ctrl_Spine2/AlexQuickRig_Ctrl_LeftShoulder/AlexQuickRig_Ctrl_LeftArm/AlexQuickRig_Ctrl_LeftForeArm/AlexQuickRig_Ctrl_LeftHand
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_Hips/AlexQuickRig_Ctrl_Spine/AlexQuickRig_Ctrl_Spine1/AlexQuickRig_Ctrl_Spine2/AlexQuickRig_Ctrl_Neck
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_Hips/AlexQuickRig_Ctrl_Spine/AlexQuickRig_Ctrl_Spine1/AlexQuickRig_Ctrl_Spine2/AlexQuickRig_Ctrl_Neck/AlexQuickRig_Ctrl_Head
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_Hips/AlexQuickRig_Ctrl_Spine/AlexQuickRig_Ctrl_Spine1/AlexQuickRig_Ctrl_Spine2/AlexQuickRig_Ctrl_RightShoulder
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_Hips/AlexQuickRig_Ctrl_Spine/AlexQuickRig_Ctrl_Spine1/AlexQuickRig_Ctrl_Spine2/AlexQuickRig_Ctrl_RightShoulder/AlexQuickRig_Ctrl_RightArm
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_Hips/AlexQuickRig_Ctrl_Spine/AlexQuickRig_Ctrl_Spine1/AlexQuickRig_Ctrl_Spine2/AlexQuickRig_Ctrl_RightShoulder/AlexQuickRig_Ctrl_RightArm/AlexQuickRig_Ctrl_RightForeArm
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_Hips/AlexQuickRig_Ctrl_Spine/AlexQuickRig_Ctrl_Spine1/AlexQuickRig_Ctrl_Spine2/AlexQuickRig_Ctrl_RightShoulder/AlexQuickRig_Ctrl_RightArm/AlexQuickRig_Ctrl_RightForeArm/AlexQuickRig_Ctrl_RightHand
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_HipsEffector
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_LeftAnkleEffector
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_LeftElbowEffector
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_LeftFootEffector
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_LeftHipEffector
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_LeftKneeEffector
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_LeftShoulderEffector
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_LeftWristEffector
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_RightAnkleEffector
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_RightElbowEffector
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_RightFootEffector
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_RightHipEffector
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_RightKneeEffector
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_RightShoulderEffector
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Ctrl_Reference/AlexQuickRig_Ctrl_RightWristEffector
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Reference
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Reference/AlexQuickRig_Hips
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Reference/AlexQuickRig_Hips/AlexQuickRig_LeftUpLeg
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Reference/AlexQuickRig_Hips/AlexQuickRig_LeftUpLeg/AlexQuickRig_LeftLeg
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Reference/AlexQuickRig_Hips/AlexQuickRig_LeftUpLeg/AlexQuickRig_LeftLeg/AlexQuickRig_LeftFoot
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Reference/AlexQuickRig_Hips/AlexQuickRig_LeftUpLeg/AlexQuickRig_LeftLeg/AlexQuickRig_LeftFoot/AlexQuickRig_LeftToeBase
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Reference/AlexQuickRig_Hips/AlexQuickRig_RightUpLeg
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Reference/AlexQuickRig_Hips/AlexQuickRig_RightUpLeg/AlexQuickRig_RightLeg
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Reference/AlexQuickRig_Hips/AlexQuickRig_RightUpLeg/AlexQuickRig_RightLeg/AlexQuickRig_RightFoot
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Reference/AlexQuickRig_Hips/AlexQuickRig_RightUpLeg/AlexQuickRig_RightLeg/AlexQuickRig_RightFoot/AlexQuickRig_RightToeBase
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Reference/AlexQuickRig_Hips/AlexQuickRig_Spine
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Reference/AlexQuickRig_Hips/AlexQuickRig_Spine/AlexQuickRig_Spine1
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Reference/AlexQuickRig_Hips/AlexQuickRig_Spine/AlexQuickRig_Spine1/AlexQuickRig_Spine2
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Reference/AlexQuickRig_Hips/AlexQuickRig_Spine/AlexQuickRig_Spine1/AlexQuickRig_Spine2/AlexQuickRig_LeftShoulder
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Reference/AlexQuickRig_Hips/AlexQuickRig_Spine/AlexQuickRig_Spine1/AlexQuickRig_Spine2/AlexQuickRig_LeftShoulder/AlexQuickRig_LeftArm
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Reference/AlexQuickRig_Hips/AlexQuickRig_Spine/AlexQuickRig_Spine1/AlexQuickRig_Spine2/AlexQuickRig_LeftShoulder/AlexQuickRig_LeftArm/AlexQuickRig_LeftForeArm
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Reference/AlexQuickRig_Hips/AlexQuickRig_Spine/AlexQuickRig_Spine1/AlexQuickRig_Spine2/AlexQuickRig_LeftShoulder/AlexQuickRig_LeftArm/AlexQuickRig_LeftForeArm/AlexQuickRig_LeftHand
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Reference/AlexQuickRig_Hips/AlexQuickRig_Spine/AlexQuickRig_Spine1/AlexQuickRig_Spine2/AlexQuickRig_Neck
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Reference/AlexQuickRig_Hips/AlexQuickRig_Spine/AlexQuickRig_Spine1/AlexQuickRig_Spine2/AlexQuickRig_Neck/AlexQuickRig_Head
+    m_Weight: 0
+  - m_Path: AlexQuickRig_Reference/AlexQuickRig_Hips/AlexQuickRig_Spine/AlexQuickRig_Spine1/AlexQuickRig_Spine2/AlexQuickRig_RightShoulder
+    m_Weight: 1
+  - m_Path: AlexQuickRig_Reference/AlexQuickRig_Hips/AlexQuickRig_Spine/AlexQuickRig_Spine1/AlexQuickRig_Spine2/AlexQuickRig_RightShoulder/AlexQuickRig_RightArm
+    m_Weight: 1
+  - m_Path: AlexQuickRig_Reference/AlexQuickRig_Hips/AlexQuickRig_Spine/AlexQuickRig_Spine1/AlexQuickRig_Spine2/AlexQuickRig_RightShoulder/AlexQuickRig_RightArm/AlexQuickRig_RightForeArm
+    m_Weight: 1
+  - m_Path: AlexQuickRig_Reference/AlexQuickRig_Hips/AlexQuickRig_Spine/AlexQuickRig_Spine1/AlexQuickRig_Spine2/AlexQuickRig_RightShoulder/AlexQuickRig_RightArm/AlexQuickRig_RightForeArm/AlexQuickRig_RightHand
+    m_Weight: 1

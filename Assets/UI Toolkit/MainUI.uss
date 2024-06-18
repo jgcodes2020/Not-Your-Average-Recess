@@ -1,0 +1,25 @@
+.title-button {
+    width: 30%;
+    min-width: 400px;
+    max-width: 800px;
+}
+
+.title-bin {
+    align-items: center;
+    justify-content: center;
+}
+
+.border-vert {
+    height: 15px;
+    max-height: 200px;
+}
+
+.unity-text-element {
+    font-size: 50px;
+    -unity-font-style: normal;
+}
+
+.root-bg {
+    flex-grow: 1;
+    background-color: rgba(168, 168, 168, 0.55);
+}

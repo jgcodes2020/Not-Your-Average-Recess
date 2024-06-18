@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="center-box" style="flex-grow: 1;" />
+    <ui:Label tabindex="-1" text="HSPD 0&#10;YSPD 0" parse-escape-sequences="true" display-tooltip-when-elided="true" name="speed-overlay" style="font-size: 60px; -unity-font-definition: initial; -unity-font: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=c3495fd350da3ef6699acc6f30f87063&amp;type=3#NotInter-Regular&quot;); -unity-font-style: bold;" />
+</ui:UXML>

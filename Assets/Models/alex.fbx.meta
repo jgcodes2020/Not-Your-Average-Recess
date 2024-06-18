@@ -1,0 +1,851 @@
+fileFormatVersion: 2
+guid: c144f718c3f354aebad7321b08b24882
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: matClothesHoles
+    second: {fileID: 2100000, guid: d1be9f9f959ddb3fab283dc4989be365, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: matPants
+    second: {fileID: 2100000, guid: 34f31b8cd32a2900faee073df1891c56, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: matShirt
+    second: {fileID: 2100000, guid: 8b15549d742d78df7a996cccec251258, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: matShoe
+    second: {fileID: 2100000, guid: 2b2f65f73e1291a5599693bf5d68598d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: matSkin
+    second: {fileID: 2100000, guid: 9f752ffe26ff11ed99e8269fe35ecf5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: matToonFace
+    second: {fileID: 2100000, guid: d1be9f9f959ddb3fab283dc4989be365, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong1
+    second: {fileID: 2100000, guid: 86dd91af442d5891c87474bbbb931226, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      internalID: 1827226128182048838
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      internalID: -998496362607748373
+      firstFrame: 25
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      internalID: 3060872287085348379
+      firstFrame: 50
+      lastFrame: 74
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump
+      takeName: Take 001
+      internalID: 6641085478485924818
+      firstFrame: 75
+      lastFrame: 81
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump Hold
+      takeName: Take 001
+      internalID: -5059006814000262888
+      firstFrame: 82
+      lastFrame: 83
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump to Freefall
+      takeName: Take 001
+      internalID: 6234510843852800090
+      firstFrame: 84
+      lastFrame: 92
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Freefall
+      takeName: Take 001
+      internalID: -6788666626592393668
+      firstFrame: 93
+      lastFrame: 94
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Freefall Landing
+      takeName: Take 001
+      internalID: 1702301948168947093
+      firstFrame: 95
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Left Leap
+      takeName: Take 001
+      internalID: 9093586079265926502
+      firstFrame: 100
+      lastFrame: 106
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Right Leap
+      takeName: Take 001
+      internalID: -4045831500588228705
+      firstFrame: 107
+      lastFrame: 113
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Backpedal
+      takeName: Take 001
+      internalID: 7731641710072435382
+      firstFrame: 114
+      lastFrame: 138
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Tag
+      takeName: Take 001
+      internalID: -6577145938085917429
+      firstFrame: 139
+      lastFrame: 143
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stop Tag
+      takeName: Take 001
+      internalID: -5912188926831197812
+      firstFrame: 143
+      lastFrame: 147
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 15
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: alex(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: alex
+      parentName: alex(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Reference
+      parentName: alex(Clone)
+      position: {x: -0.00003376007, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Hips
+      parentName: AlexQuickRig_Reference
+      position: {x: -0, y: 0.78351676, z: -0.0036926416}
+      rotation: {x: 0.5024015, y: -0.49758694, z: -0.5024015, w: 0.49758694}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_LeftUpLeg
+      parentName: AlexQuickRig_Hips
+      position: {x: 0.000003861766, y: 0.0006908989, z: 0.09286887}
+      rotation: {x: -0.03866136, y: -0.00916785, z: 0.99878067, w: -0.029300258}
+      scale: {x: 0.9999999, y: 1, z: 1.0000001}
+    - name: AlexQuickRig_LeftLeg
+      parentName: AlexQuickRig_LeftUpLeg
+      position: {x: -0.34675393, y: -0.000000026856934, z: 0}
+      rotation: {x: 0.005013762, y: -0.00023141068, z: -0.045656204, w: 0.99894464}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000004}
+    - name: AlexQuickRig_LeftFoot
+      parentName: AlexQuickRig_LeftLeg
+      position: {x: -0.38160878, y: -0.00000004986517, z: -1.6653344e-17}
+      rotation: {x: 0.020112177, y: 0.031881418, z: -0.62277126, w: -0.78149545}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1}
+    - name: AlexQuickRig_LeftToeBase
+      parentName: AlexQuickRig_LeftFoot
+      position: {x: -0.14139186, y: -0.00000001497838, z: 0.0000000021486546}
+      rotation: {x: -0, y: -0, z: 0.00000005186302, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000004}
+    - name: AlexQuickRig_RightUpLeg
+      parentName: AlexQuickRig_Hips
+      position: {x: 0.000003861766, y: 0.0006908989, z: -0.09286887}
+      rotation: {x: -0.009168864, y: 0.038660187, z: 0.029309468, w: 0.9987804}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: AlexQuickRig_RightLeg
+      parentName: AlexQuickRig_RightUpLeg
+      position: {x: 0.34675422, y: -0.00000002604864, z: -0.000000050954483}
+      rotation: {x: 0.005037873, y: -0.00023080036, z: -0.045667373, w: 0.99894404}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: AlexQuickRig_RightFoot
+      parentName: AlexQuickRig_RightLeg
+      position: {x: 0.38160837, y: -0.000000025135401, z: -0.000000006735012}
+      rotation: {x: -0.020130375, y: -0.031867526, z: 0.6227733, w: 0.78149384}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_RightToeBase
+      parentName: AlexQuickRig_RightFoot
+      position: {x: 0.14139187, y: 0.000000020680437, z: 0.000000002658444}
+      rotation: {x: 0.000025412064, y: 0.000000024214383, z: 0.000000010535586, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: AlexQuickRig_Spine
+      parentName: AlexQuickRig_Hips
+      position: {x: -0.0973109, y: 9.0813074e-10, z: 4.065758e-21}
+      rotation: {x: -0, y: -0, z: 0.0033025444, w: 0.9999946}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: AlexQuickRig_Spine1
+      parentName: AlexQuickRig_Spine
+      position: {x: -0.10351285, y: -1.0859968e-10, z: -7.72494e-20}
+      rotation: {x: 0.000000029900583, y: 0.000000029703738, z: -0.000018745428, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: AlexQuickRig_Spine2
+      parentName: AlexQuickRig_Spine1
+      position: {x: -0.10224779, y: 0.0000000032115157, z: -0.0000000061139867}
+      rotation: {x: -0.000000030491744, y: -0.000000029096567, z: 0.020124225, w: 0.99979746}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000004}
+    - name: AlexQuickRig_LeftShoulder
+      parentName: AlexQuickRig_Spine2
+      position: {x: -0.2738086, y: -0.0047342815, z: 0.114483185}
+      rotation: {x: -0.47530368, y: 0.5235326, z: 0.50549835, w: 0.49444056}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: AlexQuickRig_LeftArm
+      parentName: AlexQuickRig_LeftShoulder
+      position: {x: -0.08185562, y: 0.00000008730004, z: 0.000000007823109}
+      rotation: {x: 0.70693725, y: -0.016230734, z: -0.018021256, w: 0.70686036}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: AlexQuickRig_LeftForeArm
+      parentName: AlexQuickRig_LeftArm
+      position: {x: -0.3231578, y: -0.000000014635715, z: -0.0000000051962323}
+      rotation: {x: 0.00000008940697, y: 0.000005693175, z: -0.008538606, w: 0.9999636}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: AlexQuickRig_LeftHand
+      parentName: AlexQuickRig_LeftForeArm
+      position: {x: -0.18221584, y: 0.000000041518607, z: 0.0000000149494}
+      rotation: {x: -0.00000002980919, y: 6.76664e-10, z: -5.090927e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_RightShoulder
+      parentName: AlexQuickRig_Spine2
+      position: {x: -0.2738086, y: -0.004734295, z: -0.1144832}
+      rotation: {x: 0.5235326, y: 0.47530365, z: -0.49444056, w: 0.50549835}
+      scale: {x: 1, y: 1.0000002, z: 0.9999999}
+    - name: AlexQuickRig_RightArm
+      parentName: AlexQuickRig_RightShoulder
+      position: {x: 0.081855625, y: 0.000000055499605, z: -6.2450043e-18}
+      rotation: {x: -0.706937, y: 0.016243849, z: 0.018008923, w: -0.7068606}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: AlexQuickRig_RightForeArm
+      parentName: AlexQuickRig_RightArm
+      position: {x: 0.3231577, y: -0.000000054321124, z: -0.000000022372934}
+      rotation: {x: -0, y: 0.0000035576518, z: -0.00858417, w: 0.99996316}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000005}
+    - name: AlexQuickRig_RightHand
+      parentName: AlexQuickRig_RightForeArm
+      position: {x: 0.18221596, y: -0.0000000014172222, z: 0.000000014700406}
+      rotation: {x: -0, y: -0, z: 9.3132246e-10, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: AlexQuickRig_Neck
+      parentName: AlexQuickRig_Spine2
+      position: {x: -0.33100045, y: -0.00000002554094, z: -0.000000018981517}
+      rotation: {x: 0.000000030491744, y: 0.00000002909657, z: -0.03378534, w: 0.99942917}
+      scale: {x: 1, y: 1, z: 0.99999976}
+    - name: AlexQuickRig_Head
+      parentName: AlexQuickRig_Neck
+      position: {x: -0.1688583, y: -0.000000013475325, z: -0.0000000103660565}
+      rotation: {x: -0, y: -0, z: -8.872051e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_Reference
+      parentName: alex(Clone)
+      position: {x: -0.00003376007, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_HipsEffector
+      parentName: AlexQuickRig_Ctrl_Reference
+      position: {x: -0, y: 0.7835063, z: -0.003001812}
+      rotation: {x: 3.0616168e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_LeftAnkleEffector
+      parentName: AlexQuickRig_Ctrl_Reference
+      position: {x: -0.09286887, y: 0.068190865, z: -0.0030021337}
+      rotation: {x: 1.4600813e-14, y: 0.0000000061495538, z: -0.000000022427015, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_RightAnkleEffector
+      parentName: AlexQuickRig_Ctrl_Reference
+      position: {x: 0.09286894, y: 0.06819201, z: -0.0029984815}
+      rotation: {x: 1.0205308e-12, y: -0.000000059604666, z: 1.0905379e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_LeftWristEffector
+      parentName: AlexQuickRig_Ctrl_Reference
+      position: {x: -0.2839515, y: 0.86730605, z: 0.04242804}
+      rotation: {x: -0.10459286, y: 0.12492499, z: 0.63289297, w: 0.75690204}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_RightWristEffector
+      parentName: AlexQuickRig_Ctrl_Reference
+      position: {x: 0.28395525, y: 0.8672886, z: 0.042430256}
+      rotation: {x: -0.10449553, y: -0.12480883, z: -0.6329088, w: 0.75692135}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_LeftKneeEffector
+      parentName: AlexQuickRig_Ctrl_Reference
+      position: {x: -0.09286887, y: 0.4435932, z: 0.06553936}
+      rotation: {x: 0.090173535, y: -5.521537e-18, z: -5.521537e-18, w: 0.9959261}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_RightKneeEffector
+      parentName: AlexQuickRig_Ctrl_Reference
+      position: {x: 0.09286894, y: 0.44359422, z: 0.06554289}
+      rotation: {x: 0.09017325, y: -0.00000008274041, z: -0.0000000073002044, w: 0.99592614}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_LeftElbowEffector
+      parentName: AlexQuickRig_Ctrl_Reference
+      position: {x: -0.2533977, y: 1.0371208, z: -0.016155198}
+      rotation: {x: -0.104592964, y: 0.124925084, z: 0.6328935, w: 0.7569015}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_RightElbowEffector
+      parentName: AlexQuickRig_Ctrl_Reference
+      position: {x: 0.253398, y: 1.0371212, z: -0.01609994}
+      rotation: {x: -0.10449572, y: -0.12480902, z: -0.63290894, w: 0.7569212}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_ChestOriginEffector
+      parentName: AlexQuickRig_Ctrl_Reference
+      position: {x: -0, y: 0.88082314, z: -0.002755633}
+      rotation: {x: 3.2092384e-17, y: 1.1102179e-16, z: -1.1068658e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_ChestEndEffector
+      parentName: AlexQuickRig_Ctrl_Reference
+      position: {x: 0.000000017881392, y: 1.3600261, z: -0.01704115}
+      rotation: {x: -0.000000029802322, y: 0.000000029802322, z: -0.000000029802322, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_LeftFootEffector
+      parentName: AlexQuickRig_Ctrl_Reference
+      position: {x: -0.09286896, y: 0.030800952, z: 0.13335642}
+      rotation: {x: 6.830725e-24, y: -1.6799492e-32, z: -0.000000024113241, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_RightFootEffector
+      parentName: AlexQuickRig_Ctrl_Reference
+      position: {x: 0.09288035, y: 0.030802088, z: 0.13336009}
+      rotation: {x: 8.314384e-24, y: -0.00000012104374, z: 0.000000014901154, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_LeftShoulderEffector
+      parentName: AlexQuickRig_Ctrl_Reference
+      position: {x: -0.19619489, y: 1.3551745, z: -0.017041136}
+      rotation: {x: -0.00095758063, y: 0.0009861358, z: 0.64147747, w: 0.7671407}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_RightShoulderEffector
+      parentName: AlexQuickRig_Ctrl_Reference
+      position: {x: 0.19619492, y: 1.3551744, z: -0.017041156}
+      rotation: {x: -0.0010124899, y: -0.0010516347, z: -0.64147675, w: 0.76714116}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_HeadEffector
+      parentName: AlexQuickRig_Ctrl_Reference
+      position: {x: 0.00000003546156, y: 1.5861347, z: -0.0093051605}
+      rotation: {x: -0.00000002980233, y: 0.00000002980233, z: -0.00000002980235, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_LeftHipEffector
+      parentName: AlexQuickRig_Ctrl_Reference
+      position: {x: -0.09286887, y: 0.7835063, z: -0.003001812}
+      rotation: {x: -0.099323556, y: 6.0818136e-18, z: 6.081814e-18, w: 0.9950552}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_RightHipEffector
+      parentName: AlexQuickRig_Ctrl_Reference
+      position: {x: 0.09286887, y: 0.7835063, z: -0.003001812}
+      rotation: {x: -0.099323936, y: -0.00000014528632, z: 0.00000009391223, w: 0.9950552}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_Hips
+      parentName: AlexQuickRig_Ctrl_Reference
+      position: {x: -0, y: 0.78351676, z: -0.0036926416}
+      rotation: {x: 3.0616168e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_LeftUpLeg
+      parentName: AlexQuickRig_Ctrl_Hips
+      position: {x: -0.09286887, y: -0.000010514259, z: 0.0006908297}
+      rotation: {x: -0.099323556, y: 6.0818136e-18, z: 6.081814e-18, w: 0.9950552}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_LeftLeg
+      parentName: AlexQuickRig_Ctrl_LeftUpLeg
+      position: {x: -0, y: -0.34675407, z: 0}
+      rotation: {x: 0.18864657, y: -1.155127e-17, z: -1.155127e-17, w: 0.98204505}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_LeftFoot
+      parentName: AlexQuickRig_Ctrl_LeftLeg
+      position: {x: -0, y: -0.3816078, z: 0}
+      rotation: {x: -0.09017353, y: 0.000000009438335, z: -0.000000023518277, w: 0.9959261}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_LeftToeBase
+      parentName: AlexQuickRig_Ctrl_LeftFoot
+      position: {x: -0.00000008940696, y: -0.03738992, z: 0.13635856}
+      rotation: {x: 3.469142e-32, y: -0, z: -1.2246467e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_RightUpLeg
+      parentName: AlexQuickRig_Ctrl_Hips
+      position: {x: 0.09286887, y: -0.000010514259, z: 0.0006908297}
+      rotation: {x: -0.099323936, y: -0.00000014528632, z: 0.00000009391223, w: 0.9950552}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_RightLeg
+      parentName: AlexQuickRig_Ctrl_RightUpLeg
+      position: {x: 0.000000017881392, y: -0.34675407, z: 0.000003392156}
+      rotation: {x: 0.18864661, y: 0.00000005559047, z: -0.00000012716546, w: 0.98204505}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_RightFoot
+      parentName: AlexQuickRig_Ctrl_RightLeg
+      position: {x: -0.000000008940696, y: -0.3816078, z: 0}
+      rotation: {x: -0.09017325, y: 0.000000022914564, z: 0.000000017799112, w: 0.99592614}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_RightToeBase
+      parentName: AlexQuickRig_Ctrl_RightFoot
+      position: {x: 0.000011426209, y: -0.03738992, z: 0.13635857}
+      rotation: {x: 3.406824e-24, y: -0.000000061439074, z: 0.000000014901158, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_Spine
+      parentName: AlexQuickRig_Ctrl_Hips
+      position: {x: -0, y: 0.0973064, z: 0.0009370076}
+      rotation: {x: 3.2092384e-17, y: 1.1102179e-16, z: -1.1068658e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_Spine1
+      parentName: AlexQuickRig_Ctrl_Spine
+      position: {x: -0, y: 0.103512384, z: 0.0003130174}
+      rotation: {x: 0.000000014901161, y: 0.000000029802326, z: -0.00000002980232, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_Spine2
+      parentName: AlexQuickRig_Ctrl_Spine1
+      position: {x: -0, y: 0.10224735, z: 0.0003130177}
+      rotation: {x: -0.000000044703484, y: -1.1094554e-16, z: -2.1791666e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_LeftShoulder
+      parentName: AlexQuickRig_Ctrl_Spine2
+      position: {x: -0.11448319, y: 0.27344322, z: -0.014911538}
+      rotation: {x: 0.000000028476927, y: 0.000000014881516, z: 6.431573e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_LeftArm
+      parentName: AlexQuickRig_Ctrl_LeftShoulder
+      position: {x: -0.08171172, y: -0.004851687, z: -2.081668e-18}
+      rotation: {x: -0.00095770054, y: 0.0009859955, z: 0.6414773, w: 0.7671408}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_LeftForeArm
+      parentName: AlexQuickRig_Ctrl_LeftArm
+      position: {x: -0.3231576, y: 6.661338e-17, z: 0}
+      rotation: {x: -0.00000020199973, y: 0.1615767, z: -0.00000037174468, w: 0.98686016}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_LeftHand
+      parentName: AlexQuickRig_Ctrl_LeftForeArm
+      position: {x: -0.1822159, y: 0, z: 0}
+      rotation: {x: 0.00000010175043, y: -0.00000019869398, z: -0.0000006957734, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_RightShoulder
+      parentName: AlexQuickRig_Ctrl_Spine2
+      position: {x: 0.11448319, y: 0.27344322, z: -0.014911538}
+      rotation: {x: 0.000000029802326, y: -0.00000002980232, z: -1.0408293e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_RightArm
+      parentName: AlexQuickRig_Ctrl_RightShoulder
+      position: {x: 0.08171172, y: -0.004851687, z: -2.081668e-18}
+      rotation: {x: -0.0010124892, y: -0.0010516354, z: -0.64147675, w: 0.76714116}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_RightForeArm
+      parentName: AlexQuickRig_Ctrl_RightArm
+      position: {x: 0.3231576, y: -1.3322676e-16, z: 0}
+      rotation: {x: -0.000000083218694, y: -0.16134088, z: 0.00000043719302, w: 0.9868987}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_RightHand
+      parentName: AlexQuickRig_Ctrl_RightForeArm
+      position: {x: 0.1822159, y: 0, z: 2.081668e-18}
+      rotation: {x: 0.00000004008066, y: 0.00000022396196, z: 0.0000001968681, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_Neck
+      parentName: AlexQuickRig_Ctrl_Spine2
+      position: {x: -0, y: 0.33077168, z: -0.012307008}
+      rotation: {x: -6.071532e-17, y: 1.10971024e-16, z: -2.1867073e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AlexQuickRig_Ctrl_Head
+      parentName: AlexQuickRig_Ctrl_Neck
+      position: {x: -4.065758e-21, y: 0.16878039, z: 0.005131478}
+      rotation: {x: 3.0616168e-17, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 15
+    rootMotionBoneName: AlexQuickRig_Reference
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

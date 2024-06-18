@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="Credits Text" src="project://database/Assets/UI%20Toolkit/Credits%20Text.uxml?fileID=9197481963319205126&amp;guid=2536d6d1488359af2a891e8a4e2793c4&amp;type=3#Credits Text" />
+    <Style src="project://database/Assets/UI%20Toolkit/MainUI.uss?fileID=7433441132597879392&amp;guid=2f0918fc038658688b9d9a6d29bdd696&amp;type=3#MainUI" />
+    <ui:VisualElement class="root-bg" style="flex-grow: 1;">
+        <ui:Label tabindex="-1" text="Credits" parse-escape-sequences="true" display-tooltip-when-elided="true" style="align-items: flex-start; -unity-text-align: middle-center; -unity-font-style: bold;" />
+        <ui:ScrollView mouse-wheel-scroll-size="100">
+            <ui:Instance template="Credits Text" name="Credits Text" />
+        </ui:ScrollView>
+        <ui:Button text="Back" parse-escape-sequences="true" display-tooltip-when-elided="true" name="back-button" />
+    </ui:VisualElement>
+</ui:UXML>

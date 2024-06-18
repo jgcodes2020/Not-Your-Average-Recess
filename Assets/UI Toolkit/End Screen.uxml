@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainUI.uss?fileID=7433441132597879392&amp;guid=2f0918fc038658688b9d9a6d29bdd696&amp;type=3#MainUI" />
+    <ui:VisualElement class="root-bg" style="flex-grow: 1;">
+        <ui:VisualElement style="flex-grow: 1; justify-content: center;">
+            <ui:Label tabindex="-1" text="P(n) Wins!" parse-escape-sequences="true" display-tooltip-when-elided="true" name="win-message" style="-unity-text-align: upper-center; -unity-font-style: bold; font-size: 120px;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 0; height: 15%; flex-direction: row; justify-content: center; align-items: center;">
+            <ui:Button text="Rematch" parse-escape-sequences="true" display-tooltip-when-elided="true" name="rematch-button" class="title-button" />
+            <ui:Button text="Main Menu" parse-escape-sequences="true" display-tooltip-when-elided="true" name="quit-button" class="title-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

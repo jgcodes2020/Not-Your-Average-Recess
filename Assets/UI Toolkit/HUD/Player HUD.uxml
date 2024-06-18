@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainUI.uss?fileID=7433441132597879392&amp;guid=2f0918fc038658688b9d9a6d29bdd696&amp;type=3#MainUI" />
+    <ui:VisualElement style="flex-grow: 1; position: absolute; left: 0; top: 0; right: 0; bottom: 0;">
+        <ui:VisualElement style="flex-grow: 1;" />
+        <ui:VisualElement style="min-height: 100px; flex-direction: row; justify-content: center;">
+            <ui:VisualElement class="root-bg" style="flex-grow: 0; min-width: 250px; border-top-left-radius: 40px; border-top-right-radius: 40px; max-width: 20%; flex-direction: row; align-items: center; justify-content: center;">
+                <ui:Label tabindex="-1" text="P1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="player-index" style="-unity-text-align: middle-center; -unity-font-style: bold;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,29 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainUI.uss?fileID=7433441132597879392&amp;guid=2f0918fc038658688b9d9a6d29bdd696&amp;type=3#MainUI" />
+    <Style src="project://database/Assets/UI%20Toolkit/Credits.uss?fileID=7433441132597879392&amp;guid=2e4714e28accdf5fa838f66ecd13b666&amp;type=3#Credits" />
+    <ui:VisualElement class="credit-div" style="flex-grow: 0;">
+        <ui:Label tabindex="-1" text="Developer" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; -unity-font-style: bold;" />
+        <ui:Label tabindex="-1" text="Jacky Guo" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: upper-center;" />
+    </ui:VisualElement>
+    <ui:VisualElement class="credit-div" style="flex-grow: 0;">
+        <ui:Label tabindex="-1" text="3D Models" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; -unity-font-style: bold;" />
+        <ui:Label tabindex="-1" text="Jacky Guo" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: upper-center;" />
+    </ui:VisualElement>
+    <ui:VisualElement class="credit-div" style="flex-grow: 0;">
+        <ui:Label tabindex="-1" text="Rigging and Animation" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; -unity-font-style: bold;" />
+        <ui:Label tabindex="-1" text="Jacky Guo" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: upper-center;" />
+    </ui:VisualElement>
+    <ui:VisualElement class="credit-div" style="flex-grow: 0;">
+        <ui:Label tabindex="-1" text="Music" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; -unity-font-style: bold;" />
+        <ui:Label tabindex="-1" text="&quot;Rocket&quot; and &quot;Study and Relax&quot; by Kevin MacLeod (incompetech.com)&#10;Licensed under Creative Commons: By Attribution 4.0 License&#10;http://creativecommons.org/licenses/by/4.0/" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: upper-center;" />
+    </ui:VisualElement>
+    <ui:VisualElement class="credit-div" style="flex-grow: 0;">
+        <ui:Label tabindex="-1" text="Special Thanks" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; -unity-font-style: bold;" />
+        <ui:Label tabindex="-1" text="Mr. Brian Cho &#10;- for teaching Unity and Maya" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; margin-bottom: 30px;" />
+        <ui:Label tabindex="-1" text="David Oneacre (@doodley3d on YouTube)&#10;- for the explainers on 3D animation" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; margin-bottom: 30px;" />
+    </ui:VisualElement>
+    <ui:VisualElement class="credit-div" style="flex-grow: 0;">
+        <ui:Label tabindex="-1" text="Project offered through the Computer Studies and Media Arts&#10;departments at Unionville High School, Markham, Ontario.&#10;&#10;Course code: IDC4U3 - 3D Visualization and Virtualization" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; margin-bottom: 30px;" />
+        <ui:Label tabindex="-1" text="Copyright © Jacky Guo 2024. Licensed under the GNU&#10;General Public License, version 3 or later." parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: upper-center; margin-bottom: 30px;" />
+    </ui:VisualElement>
+</ui:UXML>

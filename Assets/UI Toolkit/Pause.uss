@@ -1,0 +1,16 @@
+.root-bg {
+    -unity-text-outline-color: rgba(0, 0, 0, 0.55);
+    background-color: rgba(0, 0, 0, 0.46);
+}
+
+.unity-text-element {
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+    font-size: 50px;
+}
+
+.pause-btn {
+    color: rgb(31, 31, 31);
+    width: 800px;
+    font-size: 60px;
+}

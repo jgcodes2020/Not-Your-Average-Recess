@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainUI.uss?fileID=7433441132597879392&amp;guid=2f0918fc038658688b9d9a6d29bdd696&amp;type=3#MainUI" />
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:VisualElement style="min-height: 200px; flex-direction: row; justify-content: center;">
+            <ui:VisualElement style="width: 375px; justify-content: center; border-bottom-right-radius: 40px; border-bottom-left-radius: 40px; background-color: rgba(190, 190, 190, 0.57);">
+                <ui:Label tabindex="-1" text="09:00" parse-escape-sequences="true" display-tooltip-when-elided="true" name="match-timer" style="-unity-text-align: upper-center; font-size: 70px; -unity-font-style: bold;" />
+                <ui:Label tabindex="-1" text="02:00 to tag" parse-escape-sequences="true" display-tooltip-when-elided="true" name="it-timer" style="-unity-text-align: upper-center; -unity-font-style: bold;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1;" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; justify-content: center; align-items: center; padding-top: 50px; padding-right: 50px; padding-bottom: 50px; padding-left: 50px;">
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="control-btn" style="min-height: 100px; font-size: 40px; text-overflow: ellipsis; width: 350px;" />
+        <ui:Label tabindex="-1" text="P1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="player-label" style="-unity-text-align: middle-center; padding-bottom: 20px;" />
+        <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="control-scheme" />
+    </ui:VisualElement>
+</ui:UXML>

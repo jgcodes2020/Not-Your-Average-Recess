@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainUI.uss?fileID=7433441132597879392&amp;guid=2f0918fc038658688b9d9a6d29bdd696&amp;type=3#MainUI" />
+    <ui:VisualElement class="root-bg" style="flex-grow: 1; flex-direction: column;">
+        <ui:VisualElement class="border-vert" style="flex-grow: 1; flex-direction: row; align-items: center; justify-content: center;">
+            <ui:Label tabindex="-1" text="Input Configuration" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-font-style: bold;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="dev-chooser" style="flex-grow: 1; flex-direction: row; justify-content: center; padding-top: 50px; padding-right: 50px; padding-bottom: 50px; padding-left: 50px;">
+            <InputChooser player-index="1" name="p1-device" />
+            <InputChooser player-index="2" name="p2-device" />
+        </ui:VisualElement>
+        <ui:VisualElement class="border-vert" style="flex-grow: 1; flex-direction: row; justify-content: flex-end; align-items: center; margin-top: 0; margin-left: 0; margin-right: 0; margin-bottom: 0; padding-top: 30px; padding-right: 30px; padding-bottom: 10px; padding-left: 30px;">
+            <ui:Button text="Back" parse-escape-sequences="true" display-tooltip-when-elided="true" name="back-button" style="min-width: 400px;" />
+            <ui:Button text="Start!" parse-escape-sequences="true" display-tooltip-when-elided="true" name="start-button" style="min-width: 400px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

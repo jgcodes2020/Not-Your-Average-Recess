@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainUI.uss?fileID=7433441132597879392&amp;guid=2f0918fc038658688b9d9a6d29bdd696&amp;type=3#MainUI" />
+    <ui:VisualElement name="ui-root" class="root-bg">
+        <ui:VisualElement name="header-padding" style="flex-grow: 0; min-height: 10%;" />
+        <ui:Label tabindex="-1" text="NOT YOUR&#10;AVERAGE RECESS" parse-escape-sequences="true" display-tooltip-when-elided="true" style="font-size: 120px; -unity-font-style: bold; -unity-text-align: upper-center;" />
+        <ui:VisualElement class="title-bin" style="flex-grow: 1; align-items: center; justify-content: center;">
+            <ui:Button text="Start" parse-escape-sequences="true" display-tooltip-when-elided="true" name="start-button" class="title-button" />
+            <ui:Button text="Credits" parse-escape-sequences="true" display-tooltip-when-elided="true" name="credits-button" class="title-button" />
+            <ui:Button text="Quit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="quit-button" class="title-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
